@@ -1,0 +1,1 @@
+system_directories = ['app','web','logs','output','data']
