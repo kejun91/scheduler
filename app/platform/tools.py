@@ -5,7 +5,7 @@ from app.utils.common import get_python_executable_path
 from app.utils.path import get_project_root_dir
 
 class SchedulerABC(ABC):
-    task_name_prefix = 'UpWebTools '
+    task_name_prefix = 'LocalScheduler '
     python_executable_path = get_python_executable_path()
     entrypoint_script_path = os.path.join(get_project_root_dir(),'start.py')
     
